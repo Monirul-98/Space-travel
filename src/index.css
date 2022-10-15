@@ -124,7 +124,7 @@ select {
   padding: 2em;
   margin-inline: auto;
   max-width: 100%;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 .sr-only {
@@ -146,13 +146,13 @@ select {
 
 /* colors */
 
-.bg-dark {
+.bgc-dark {
   background-color: hsl(var(--clr-dark));
 }
-.bg-light {
+.bgc-light {
   background-color: hsl(var(--clr-light));
 }
-.bg-white {
+.bgc-white {
   background-color: hsl(var(--clr-white));
 }
 
