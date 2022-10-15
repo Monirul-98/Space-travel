@@ -1,0 +1,4 @@
+.typography {
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: 3rem;
+}
