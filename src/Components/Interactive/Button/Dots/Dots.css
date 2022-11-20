@@ -1,0 +1,18 @@
+.dot-btn {
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  background-color: hsl(var(--clr-white) / 0.25);
+  border: 0;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.dot-btn:hover,
+.dot-btn:focus {
+  background-color: hsl(var(--clr-white) / 0.5);
+}
+
+.dot-btn:active,
+.dot-btn:focus {
+  background-color: hsl(var(--clr-white) / 1);
+}

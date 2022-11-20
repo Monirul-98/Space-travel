@@ -1,0 +1,18 @@
+.numbered-btn {
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  font-family: var(--ff-sans-normal);
+  border: 1px solid #ffff;
+  border-radius: 50%;
+}
+
+.numbered-btn:hover,
+.numbered-btn:focus {
+  background-color: hsl(var(--clr-white) / 1);
+  color: black;
+}
+.numbered-btn:active {
+  background-color: hsl(var(--clr-white) / 1);
+  color: black;
+}
