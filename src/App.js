@@ -1,15 +1,18 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Colors from "./Components/Colors/Colors";
-import Interactive from "./Components/Interactive/Interactive";
-import Typography from "./Components/Typography/Typography";
+
+import Design from "./Components/Design";
+import Header from "./Components/Shared/Header/Header";
+import Home from "./Components/Space-travel/Home/Home";
 
 function App() {
   return (
-    <div className="container">
-      <h3 className="letter-spacing-3 uppercase heading">Design System</h3>
-      <Colors></Colors>
-      <Typography></Typography>
-      <Interactive></Interactive>
+    <div className="container body">
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/design" element={<Design></Design>}></Route>
+      </Routes>
     </div>
   );
 }
